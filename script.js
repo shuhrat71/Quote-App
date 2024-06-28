@@ -10,16 +10,3 @@ async function getquote(url) {
   author.innerHTML = `<span>From:${data.author}</span>`;
 }
 getquote(api);
-
-
-// function add(innitail) {
-
-//     let res = innitail;
-    
-//     function innerAdd(num) {
-//     res += num;
-//     return innerAdd        
-//     }
-//     return res
-// }
-// add()
